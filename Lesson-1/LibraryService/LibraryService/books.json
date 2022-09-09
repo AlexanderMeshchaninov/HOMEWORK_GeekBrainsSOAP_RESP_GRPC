@@ -1,0 +1,232 @@
+[
+    {
+        "id": "62c69902893de656b4fd0bfc",
+        "title": "Ну-ну",
+        "category": "Наука и техника",
+        "authors": [
+            {
+                "name": "Жюль Верный",
+                "lang": "fr"
+            }
+        ],
+        "publicationDate": "1815",
+        "lang": "fr",
+        "pages": 582,
+        "ageLimit": 6
+    },
+    {
+        "id": "62c69a5f315cc9db8c47b13f",
+        "title": "SCRUM",
+        "category": "Красота, здоровье, спорт",
+        "authors": [
+            {
+                "name": "Максим Негорький",
+                "lang": "ru"
+            },
+            {
+                "name": "Михаил Толстой",
+                "lang": "ru"
+            }
+        ],
+        "publicationDate": "1978",
+        "lang": "en",
+        "pages": 388,
+        "ageLimit": 2
+    },
+    {
+        "id": "62c69a764ec09927314f434f",
+        "title": "Такой хоккей нам не нужен",
+        "category": "Книги для детей",
+        "authors": [
+            {
+                "name": "Михаил Толстой",
+                "lang": "ru"
+            }
+        ],
+        "publicationDate": "2009",
+        "lang": "ru",
+        "pages": 741,
+        "ageLimit": 5
+    },
+    {
+        "id": "62c69a8755884566e9839c3f",
+        "title": "О вреде бега",
+        "category": "Красота, здоровье, спорт",
+        "authors": [
+            {
+                "name": "Михаил Толстой",
+                "lang": "fr"
+            },
+            {
+                "name": "Макдональд Кнутов",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "1915",
+        "lang": "fr",
+        "pages": 668,
+        "ageLimit": 11
+    },
+    {
+        "id": "62c69a9767cf8efb1443e904",
+        "title": "Ренессанс в программировании",
+        "category": "Наука и техника",
+        "authors": [
+            {
+                "name": "Макдональд Кнутов",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "1900",
+        "lang": "ru",
+        "pages": 634,
+        "ageLimit": 14
+    },
+    {
+        "id": "62c69aab6f642388bf24c5cc",
+        "title": "Programming or not?",
+        "category": "Книги для детей",
+        "authors": [
+            {
+                "name": "Jules Vernyi",
+                "lang": "fr"
+            }
+        ],
+        "publicationDate": "1741",
+        "lang": "fr",
+        "pages": 385,
+        "ageLimit": 15
+    },
+    {
+        "id": "62c69abd49d60e62076f0294",
+        "title": "На глубине",
+        "category": "Наука и техника",
+        "authors": [
+            {
+                "name": "Doogie Brimsons",
+                "lang": "en"
+            },
+            {
+                "name": "Jules Vernyi",
+                "lang": "fr"
+            },
+            {
+                "name": "Михаил Толстой",
+                "lang": "ru"
+            }
+        ],
+        "publicationDate": "1783",
+        "lang": "en",
+        "pages": 575,
+        "ageLimit": 14
+    },
+    {
+        "id": "62c69ad18ba44f911ab72bd2",
+        "title": "Design patterns",
+        "category": "Наука и техника",
+        "authors": [
+            {
+                "name": "Боберт Мартин",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "1840",
+        "lang": "fr",
+        "pages": 119,
+        "ageLimit": 14
+    },
+    {
+        "id": "62c69af1ea01ce0d79a38278",
+        "title": "Ну-ну",
+        "category": "Книги для детей",
+        "authors": [
+            {
+                "name": "Михаил Толстой",
+                "lang": "fr"
+            }
+        ],
+        "publicationDate": "2141",
+        "lang": "en",
+        "pages": 606,
+        "ageLimit": 12
+    },
+    {
+        "id": "62c69b08b51ab43502fa6452",
+        "title": "Agile",
+        "category": "Книги для детей",
+        "authors": [
+            {
+                "name": "Роберт Стивен",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "2100",
+        "lang": "ru",
+        "pages": 685,
+        "ageLimit": 12
+    },
+    {
+        "id": "62c69b1fc7edf284066f2018",
+        "title": "Такой хоккей нам не нужен",
+        "category": "Художественная литература",
+        "authors": [
+            {
+                "name": "Михаил Толстой",
+                "lang": "fr"
+            }
+        ],
+        "publicationDate": "2126",
+        "lang": "en",
+        "pages": 581,
+        "ageLimit": 7
+    },
+    {
+        "id": "62c69b3ba34eec81f824fbfe",
+        "title": "Находки на футбольных полях",
+        "category": "Красота, здоровье, спорт",
+        "authors": [
+            {
+                "name": "Stevie McConnell",
+                "lang": "en"
+            },
+            {
+                "name": "Doogie Brimsons",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "1743",
+        "lang": "en",
+        "pages": 230,
+        "ageLimit": 8
+    },
+    {
+        "id": "62c69b448e48acb450615cd7",
+        "title": "SCRUM",
+        "category": "Наука и техника",
+        "authors": [
+            {
+                "name": "Максим Негорький",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "1974",
+        "lang": "fr",
+        "pages": 222,
+        "ageLimit": 14
+    },
+    {
+        "id": "12c69b448e48acb420615cd7",
+        "title": "Javascript для самых маленьких",
+        "category": "Наука и техника",
+        "authors": [
+            {
+                "name": "Стоян Стефан",
+                "lang": "en"
+            }
+        ],
+        "publicationDate": "2024",
+        "lang": "ru",
+        "pages": 322,
+        "ageLimit": 0
+    }
+]
