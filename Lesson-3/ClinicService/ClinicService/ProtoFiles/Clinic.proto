@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option csharp_namespace = "ClinicServiceProtoFiles";
+
+package ClinicServiceProtoFiles;
+
+service ClinicClientService{
+  rpc CreateClient (CreateClientRequest) returns (CreateClientResponse);
+  rpc UpdateClient (UpdateClientRequest) returns (UpdateClientResponse);
+  rpc DeleteClient (DeleteClientRequest) returns (DeleteClientResponse);
+  rpc GetClientById (GetClientByIdRequest) returns (ClientResponse);
+  rpc GetAllClients (GetAllClientRequest) returns (GetAllClientResponse);
+}
+
+message CreateClientRequest{
+  string document = 1;
+  string surname = 2;
+  string firstName = 3;
+  string patronymic = 4;
+}
+
+message CreateClientResponse{
+  int32 clientId = 1;
+}
+
+message UpdateClientRequest{
+  int32 clientId = 1;
+  string document = 2;
+  string surname = 3;
+  string firstName = 4;
+  string patronymic = 5;
+}
+
+message UpdateClientResponse{
+}
+
+message DeleteClientRequest{
+  int32 clientId = 1;
+}
+
+message DeleteClientResponse{
+}
+
+message GetClientByIdRequest{
+  int32 clientId = 1;
+}
+
+message GetClientByIdResponse{
+  ClientResponse client = 1;
+}
+
+message GetAllClientRequest{
+}
+
+message GetAllClientResponse{
+  repeated ClientResponse client = 1;
+}
+
+message ClientResponse{
+  int32 clientId = 1;
+  string document = 2;
+  string surname = 3;
+  string firstName = 4;
+  string patronymic = 5;
+}
