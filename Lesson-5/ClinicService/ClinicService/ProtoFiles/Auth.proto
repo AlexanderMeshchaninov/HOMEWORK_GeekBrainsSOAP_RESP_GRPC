@@ -1,0 +1,54 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ClinicServiceProtoFiles";
+
+package ClinicServiceProtoFiles;
+
+service AuthService{
+  rpc Register (RegisterClientRequest) returns (RegisterClientResponse);
+  rpc Login (AuthentificationRequest) returns (AuthentificationResponse);
+  rpc GetSessionInfo (GetSessionRequest) returns (GetSessionResponse);
+}
+
+message RegisterClientRequest{
+   string email = 1;
+   string password = 2; 
+   string firstname = 3;
+   string lastname = 4;
+   string secondname = 5;
+}
+
+message RegisterClientResponse{
+}
+
+message AuthentificationRequest{
+  string login = 1;
+  string password = 2;
+}
+
+message AuthentificationResponse{
+  int32 status = 1;
+  SessionContext sessionContext = 2;
+}
+
+message SessionContext{
+  int32 sessionId = 1;
+  string sessionToken = 2;
+  AccountDto account = 3;
+}
+
+message AccountDto{
+  int32 accountid = 1;
+  string email = 2;
+  bool locked = 3;
+  string firstname = 4;
+  string lastname = 5;
+  string secondname = 6;
+}
+
+message GetSessionRequest{
+}
+
+message GetSessionResponse{
+  SessionContext sessionContext = 1;
+}
