@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  postgresqldb:
+      image: postgres:latest
+      container_name: postgres.db
+      restart: always
+      environment:
+         - POSTGRES_USER=postgres
+         - POSTGRES_PASSWORD=test
+      ports:
+         - "5432:5432"
+      volumes:
+         - postgres-data:/var/lib/postgresql/data/
+
+  pgadmin:
+      image: dpage/pgadmin4:latest
+      container_name: pgadmin
+      restart: always
+      environment:
+         - PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org
+         - PGADMIN_DEFAULT_PASSWORD=test
+      ports:
+         - "5050:80"
+      depends_on:
+         - postgresqldb
+      volumes:
+         - pgadmin-data:/root/.pgadmin
+
+volumes:
+    postgres-data:
+    pgadmin-data:
